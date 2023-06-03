@@ -39,7 +39,7 @@
         margin-top: 0;
     }
     .footer{
-        width: 103%;
+        width: 100%;
         flex-direction: column;
         text-align: center;
         align-items: center;
@@ -48,7 +48,7 @@
         overflow: hidden;
     }
     .line{
-        width: 103%;
+        width: 100%;
         margin: 0;
     }
 }
