@@ -1,0 +1,54 @@
+@media screen and (max-width: 1125px) {
+    .top{
+        width: 100%;
+        overflow: hidden;
+    }
+    .mid{
+        display: none;
+    }
+    .wrap-middle{
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 993px) {
+    .card{
+        width: 15rem;
+    }
+
+}
+@media screen and (max-width: 435px) {
+    .impanel{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .wrap-middle{
+        width: 95%;
+        margin-top: 20px;
+    }
+    .leftside{
+        width: 98%;
+        padding: 16px 5px;
+        margin: 0;
+    }
+    .rightside{
+        width: 95%;
+        margin-top: 0;
+    }
+    .footer{
+        width: 103%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        height: 200px;
+        overflow: hidden;
+    }
+    .line{
+        width: 103%;
+        margin: 0;
+    }
+}
