@@ -1,54 +1,89 @@
-@media screen and (max-width: 1125px) {
-    .top{
-        width: 100%;
-        overflow: hidden;
-    }
-    .mid{
-        display: none;
-    }
-    .wrap-middle{
-        width: 60%;
-    }
+@media screen and (min-width: 1126px) {
+  .a1 {
+    display: block;
+  }
+  .a2 {
+    display: none;
+  }
 }
 
+@media screen and (max-width: 1125px) {
+  .a1 {
+    display: block;
+  }
+  .a2 {
+    display: none;
+  }
+  .top {
+    width: 100%;
+    overflow: hidden;
+  }
+  .mid {
+    display: none;
+  }
+  .wrap-middle {
+    width: 60%;
+  }
+}
 
 @media screen and (max-width: 993px) {
-    .card{
-        width: 15rem;
-    }
-
+  .a1 {
+    display: block;
+  }
+  .a2 {
+    display: none;
+  }
+  .card {
+    width: 15rem;
+  }
 }
 @media screen and (max-width: 435px) {
-    .impanel{
-        width: 100%;
-    }
-    .card{
-        width: 100%;
-    }
-    .wrap-middle{
-        width: 95%;
-        margin-top: 20px;
-    }
-    .leftside{
-        width: 98%;
-        padding: 16px 17px;
-        margin: 0;
-    }
-    .rightside{
-        width: 95%;
-        margin-top: 0;
-    }
-    .footer{
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        margin: 0;
-        height: 200px;
-        overflow: hidden;
-    }
-    .line{
-        width: 100%;
-        margin: 0;
-    }
+  .a1 {
+    display: none;
+  }
+  .a2{
+    display: block;
+  }
+  .navbar-nav {
+    margin-top: 20px;
+  }
+  .news-left {
+    width: 17%;
+  }
+  .impanel {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .wrap-middle {
+    width: 95%;
+    margin-top: 20px;
+  }
+  .leftside {
+    width: 98%;
+    padding: 16px 17px;
+    margin: 0;
+  }
+  .rightside {
+    width: 95%;
+    margin-top: 0;
+  }
+  .footer {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    height: 200px;
+    overflow: hidden;
+  }
+  .footer ul li a {
+    border-right: none;
+    padding-right: 0;
+  }
+  .line {
+    width: 100%;
+    margin: 0;
+  }
 }
