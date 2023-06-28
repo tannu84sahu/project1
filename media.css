@@ -37,7 +37,7 @@
     width: 15rem;
   }
 }
-@media screen and (max-width: 436px) {
+@media screen and (max-width: 440px) {
   .a1 {
     display: none;
   }
